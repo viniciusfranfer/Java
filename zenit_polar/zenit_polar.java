@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ZenitPolar{
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Digite uma frase: ");
+        System.out.println("Type the phrase: ");
         String input = scan.nextLine();
         String output = "";
         for (int i = 0; i < input.length(); i++) {
@@ -74,7 +74,7 @@ public class ZenitPolar{
                     break;
             }
         }
-        System.out.println("String codificada: " + output);
+        System.out.println("String output: " + output);
     }
 }
 
